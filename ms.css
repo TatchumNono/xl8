@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(80, 91, 247);
+  transition: 1000ms;
+}
+
+textarea {
+  height: 8rem;
+  width: 38rem;
+  margin: 0.8rem;
+  max-width: 38rem;
+  max-height: 12rem;
+}
+
+input {
+  padding: 0.5rem;
+  color: rgb(43, 38, 38);
+  margin: 0.8rem;
+  width: 12rem;
+  border: 1px solid rgb(255, 230, 230);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: auto;
+  width: 40rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px -20px 72px -1px rgba(0, 0, 0, 0.08);
+}
+
+.card2 {
+  height: auto;
+  width: 40rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px -20px 72px -1px rgba(0, 0, 0, 0.08);
+}
+
+.profile-side {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.form-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input#pic {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5px;
+}
+
+input#email {
+  width: 27rem;
+}
+
+input#password {
+  width: 27rem;
+}
+
+select {
+  text-align: center;
+  padding: 0.5rem;
+  color: rgb(43, 38, 38);
+  margin: 0.8rem;
+  width: 12rem;
+  border: 1px solid rgb(255, 230, 230);
+}
+
+button {
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+}
+
+button#add {
+  width: 2.5rem;
+  border-radius: 2.5px;
+  color: #fff;
+  background-color: rgb(80, 91, 247);
+  margin: 1rem;
+}
+
+button#add:hover {
+  color: rgb(80, 91, 247);
+  background-color: #fff;
+  border: #fff;
+  transition: 1000ms;
+}
+
+.b {
+  display: flex;
+  justify-content: flex-end;
+  width: 29.5rem;
+}
+
+.nextBtn {
+  border-radius: 4px;
+  color: #fff;
+  background-color: rgb(74, 84, 226);
+  margin: 0.8rem;
+}
+
+.nextBtn:hover {
+  color: rgb(94, 103, 228);
+  background-color: #fff;
+  transition: 1000ms;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btnControls {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-color: rgb(129, 91, 91);
+  height: 3.4rem;
+  padding: 1rem;
+  width: 22rem;
+}
+
+.btnControls#first {
+  color: #fff;
+  background-color: rgb(80, 91, 247);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.cheks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.each {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem;
+}
+
+.cheks input {
+  padding: 1rem;
+  margin: 0;
+  width: 2rem;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.space {
+  padding: 1rem;
+}
+
+span {
+  margin-bottom: 1rem;
+}
+
+.padding3 {
+  padding: 2rem;
+}
+
+.sec1 {
+  display: flex;
+  align-content: center;
+}
+
+.textMiddle {
+  text-align: center;
+}
+
+.v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

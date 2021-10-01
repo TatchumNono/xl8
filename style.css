@@ -1,0 +1,168 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url("./image/5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(80, 91, 247);
+}
+
+input {
+  padding: 0.8rem;
+  color: rgb(252, 215, 215);
+  margin: 0.8rem;
+  width: 18rem;
+  border: 1px solid rgb(255, 230, 230);
+}
+
+button {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 3px;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 30rem;
+  width: 48rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px -20px 72px -1px rgba(0, 0, 0, 0.08);
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card-login {
+  margin-right: -2rem;
+  width: 24rem;
+}
+
+.card-blurb {
+  margin: -1em;
+  margin-left: 3.91rem;
+  color: #fff;
+  background-color: blueviolet;
+  width: 24rem;
+  margin-right: -2rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.blurb-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.textcenter {
+  text-align: center;
+  margin: 2rem;
+}
+
+.loginBtn {
+  width: 19rem;
+  color: #fff;
+  background-color: rgb(80, 91, 247);
+}
+
+.loginBtn:hover {
+  color: #fff;
+  background-color: rgb(111, 119, 243);
+  transition: 1000ms;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.facebook {
+  border: 1px solid rgb(252, 215, 215);
+  color: rgb(80, 91, 247);
+  background-color: #fff;
+  width: 6.5rem;
+}
+
+.facebook:hover {
+  color: #fff;
+  background-color: rgb(80, 91, 247);
+  border: #fff;
+  transition: 1000ms;
+}
+
+.google {
+  border: 1px solid rgb(252, 215, 215);
+  color: rgb(233, 64, 64);
+  background-color: #fff;
+  width: 6.5rem;
+}
+
+.google:hover {
+  color: #fff;
+  background-color: rgb(233, 64, 64);
+  border: #fff;
+  transition: 1000ms;
+}
+
+.linkedin {
+  border: 1px solid rgb(252, 215, 215);
+  color: rgb(76, 87, 245);
+  background-color: #fff;
+  width: 6.5rem;
+}
+
+.linkedin:hover {
+  color: #fff;
+  background-color: rgb(76, 87, 245);
+  border: #fff;
+  transition: 1000ms;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card-signup {
+  height: 33rem;
+  width: 24rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px -20px 72px -1px rgba(0, 0, 0, 0.08);
+}
