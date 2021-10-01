@@ -25,7 +25,7 @@
               type="password"
             />
             <br />
-            <button class="loginBtn">Login</button>
+            <button class="loginBtn" id="login">Login</button>
           </div>
 
           <div class="textcenter">
@@ -61,5 +61,12 @@
         </div>
       </div>
     </div>
+    <script>
+      //Redirecting to Profile page from the Login Page
+      let login = document.querySelector("#login");
+      login.addEventListener("click", () => {
+        location.href = "./profile.html";
+      });
+    </script>
   </body>
 </html>

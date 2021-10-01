@@ -19,12 +19,22 @@
             <p>A confirmation email has been sent to [email]</p>
           </div>
           <div class="v">
-            <button class="nextBtn">Wrong Address</button>
+            <button id="correct" class="nextBtn">Wrong Address</button>
             <button class="nextBtn">Resend Email</button>
-            <button class="nextBtn">Confirm</button>
+            <button id="finish" class="nextBtn">Confirm</button>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      let finish = document.querySelector("#finish");
+      finish.addEventListener("click", () => {
+        location.href = "./profile.html";
+      });
+      let correct = document.querySelector("#correct");
+      correct.addEventListener("click", () => {
+        location.href = "./mentorSignup1.html";
+      });
+    </script>
   </body>
 </html>

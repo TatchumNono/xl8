@@ -42,9 +42,7 @@
         </div>
 
         <div class="position">
-          <button class="nextBtn">
-            <a href="./mentorSignup3.html">Next</a>
-          </button>
+          <button id="third" class="nextBtn">Next</button>
         </div>
       </div>
     </div>
@@ -56,5 +54,12 @@
         <button class="btnControls">How can we help?</button>
       </div>
     </footer>
+
+    <script>
+      let third = document.querySelector("#third");
+      third.addEventListener("click", () => {
+        location.href = "./mentorSignup3.html";
+      });
+    </script>
   </body>
 </html>

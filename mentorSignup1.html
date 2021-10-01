@@ -21,9 +21,7 @@
         </span>
         <br />
         <div class="position">
-          <button class="nextBtn">
-            <a href="./mentorSignup2.html">Next</a>
-          </button>
+          <button id="second" class="nextBtn">Next</button>
         </div>
       </div>
     </div>
@@ -35,5 +33,11 @@
         <button class="btnControls">How can we help?</button>
       </div>
     </footer>
+    <script>
+      let second = document.querySelector("#second");
+      second.addEventListener("click", () => {
+        location.href = "./mentorSignup2.html";
+      });
+    </script>
   </body>
 </html>
